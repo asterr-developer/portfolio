@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Богдан Викторович Максимов, PHP-разработчик (Laravel)</title>
+<meta name="description" content="PHP-разработчик. Полгода на фрилансе, затем работа в ООО &quot;Арго Медиа&quot; (июль 2024 - октябрь 2026). После работы в компании занимался отдельными заказами. Основной стек - PHP, Laravel, Vue 3 и MySQL.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Богдан Викторович Максимов, PHP-разработчик (Laravel)">
+<meta property="og:description" content="PHP-разработчик. Полгода на фрилансе, затем работа в ООО &quot;Арго Медиа&quot; (июль 2024 - октябрь 2026). После работы в компании занимался отдельными заказами. Основной стек - PHP, Laravel, Vue 3 и MySQL.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Богдан Викторович Максимов, PHP-разработчик (Laravel)">
+<meta name="twitter:description" content="PHP-разработчик. Полгода на фрилансе, затем работа в ООО &quot;Арго Медиа&quot; (июль 2024 - октябрь 2026). После работы в компании занимался отдельными заказами. Основной стек - PHP, Laravel, Vue 3 и MySQL.">
+<link rel="preload" href="fonts/archivo-800-900-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plex-sans-400-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plex-mono-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plex-mono-500-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plex-mono-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Богдан Викторович Максимов","jobTitle":"PHP-разработчик (Laravel)","email":"mailto:asterr.developer@gmail.com","telephone":"+79818550719","sameAs":["https://github.com/asterr-developer"]}</script>
+<script>document.documentElement.classList.add('js')</script>
+<style>
+/*
+  Shared with the CV. Accent #AE3F1A is 5.96:1 on white, 4.93:1 on paper; white on accent is 5.96:1.
+  It has four jobs only: calls to action, key numbers, the contact band, the proof bar and compare handle.
+  On ink, text uses paper (14.99:1) and --mute-dark (6.93:1).
+  Fonts are self-hosted latin subsets, preloaded. Archivo uses swap so a slow first visit never stays on a fallback headline; text fonts use optional.
+*/
+@font-face{font-family:"Archivo"; src:url(fonts/archivo-800-900-latin.woff2) format("woff2"); font-weight:800 900; font-style:normal; font-display:swap}
+@font-face{font-family:"IBM Plex Sans"; src:url(fonts/plex-sans-400-600-latin.woff2) format("woff2"); font-weight:400 600; font-style:normal; font-display:optional}
+@font-face{font-family:"IBM Plex Mono"; src:url(fonts/plex-mono-400-latin.woff2) format("woff2"); font-weight:400; font-style:normal; font-display:optional}
+@font-face{font-family:"IBM Plex Mono"; src:url(fonts/plex-mono-500-latin.woff2) format("woff2"); font-weight:500; font-style:normal; font-display:optional}
+@font-face{font-family:"IBM Plex Mono"; src:url(fonts/plex-mono-600-latin.woff2) format("woff2"); font-weight:600; font-style:normal; font-display:optional}
+:root{
+  --paper:#E7EAEC;
+  --card:#FFFFFF;
+  --ink:#14161A;
+  --mute:#5A6067;
+  --line:#C6CBD0;
+  --accent:#AE3F1A;
+  --mute-dark:#9AA1A8;
+  --maxw:1160px;
+  --display:"Archivo","Arial Black","Segoe UI",Arial,sans-serif;
+  --text:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --shadow:0 1px 2px rgba(20,22,26,.05),0 10px 28px -14px rgba(20,22,26,.3);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:72px}
+html.lb-lock{overflow:hidden}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--text); font-size:16px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent); outline-offset:3px}
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 16px}
+@media (min-width:700px){.wrap{padding:0 32px}}
+code{font-family:var(--mono); font-size:.88em; background:var(--paper); padding:1px 5px; border-radius:3px}
+.n{font-family:var(--display); font-weight:800; color:var(--accent); font-size:1.08em; letter-spacing:-.01em}
+.sr{position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0}
+.skip{position:absolute; left:-9999px; top:8px; background:var(--ink); color:var(--paper); padding:8px 12px; z-index:20}
+.skip:focus{left:8px}
+
+/* top bar */
+.bar{position:sticky; top:0; z-index:10; background:rgba(231,234,236,.94); border-bottom:1px solid var(--line);
+  -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px)}
+.bar .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px; height:56px}
+.bar .who{font-family:var(--display); font-weight:800; font-size:17px; letter-spacing:-.01em; text-decoration:none}
+.bar nav ul{display:flex; gap:22px; list-style:none; margin:0; padding:0}
+.bar nav a{font-family:var(--mono); font-size:12.5px; text-decoration:none; color:var(--mute)}
+.bar nav a:hover{color:var(--ink)}
+.bar .hire{font-family:var(--mono); font-size:12.5px; font-weight:600; text-decoration:none; color:#fff;
+  background:var(--accent); padding:8px 12px; border-radius:3px; white-space:nowrap}
+.bar .hire:hover{background:var(--ink)}
+@media (max-width:860px){.bar nav{display:none}}
+
+/* hero */
+.hero{padding:28px 0 40px; border-bottom:1px solid var(--line)}
+.hero .grid{display:grid; gap:36px}
+@media (min-width:980px){.hero{padding:56px 0 64px}.hero .grid{grid-template-columns:1.35fr 1fr; gap:56px; align-items:start}}
+.status{display:inline-flex; align-items:center; gap:10px; font-family:var(--mono); font-size:12.5px;
+  background:var(--card); border:1px solid var(--line); border-radius:999px; padding:6px 14px 6px 10px; margin:0 0 26px}
+.status .dot{width:9px; height:9px; border-radius:50%; background:var(--ink); box-shadow:0 0 0 4px var(--line); flex:none}
+.status b{font-weight:600}
+.eyebrow{font-family:var(--mono); font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--mute); margin:0 0 10px}
+.hero h1{font-family:var(--display); font-weight:900; font-size:clamp(38px,4.6vw,58px); line-height:.98;
+  letter-spacing:-.035em; margin:0 0 18px}
+.hero h1 .stack{display:block; font-weight:800; font-size:.5em; letter-spacing:-.015em; line-height:1.1; margin-top:12px}
+.hero .value{font-size:clamp(18px,2.2vw,21px); line-height:1.45; max-width:34em; margin:0 0 28px}
+.ctas{display:flex; flex-wrap:wrap; gap:10px; margin:0 0 18px; padding:0; list-style:none}
+.btn{display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:14px; font-weight:500;
+  text-decoration:none; padding:12px 14px; border-radius:3px; border:1.5px solid var(--ink); background:var(--card); color:var(--ink)}
+.btn:hover{background:var(--ink); color:var(--paper)}
+.btn.primary{background:var(--accent); border-color:var(--accent); color:#fff}
+.btn.primary:hover{background:var(--ink); border-color:var(--ink)}
+.btn.dark{background:var(--ink); color:#fff}
+.btn.dark:hover{background:var(--card); color:var(--ink)}
+.btn .k{color:inherit; opacity:.7; font-size:12px}
+.ledger dt{min-width:3.9em}
+@media (max-width:560px){
+  .ctas{display:grid; grid-template-columns:repeat(3,1fr)}
+  .ctas li:nth-child(-n+2){grid-column:1/-1}
+  .ctas .btn{justify-content:center; width:100%; padding:12px 8px}
+  .status{font-size:12px; border-radius:6px}
+  .ledger .row{display:block}
+  .ledger dd{margin-top:6px}
+}
+.fine{font-family:var(--mono); font-size:12.5px; color:var(--mute); margin:0}
+.fine a{color:var(--ink); text-underline-offset:3px; white-space:nowrap}
+.nw{white-space:nowrap}
+
+/* proof ledger */
+.ledger{background:var(--card); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:8px 22px 4px; position:relative;
+  box-shadow:0 1px 2px rgba(20,22,26,.04),0 8px 24px rgba(20,22,26,.06)}
+.ledger::before{content:""; position:absolute; left:0; top:22px; bottom:22px; width:4px; background:var(--accent)}
+.ledger h2{font-family:var(--mono); font-weight:500; font-size:12px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--mute); margin:14px 0 4px}
+.ledger dl{margin:0}
+.ledger .row{display:flex; flex-wrap:wrap; gap:4px 16px; align-items:baseline;
+  padding:15px 0; border-top:1px solid var(--line)}
+.ledger .row:first-child{border-top:0}
+.ledger dt{font-family:var(--display); font-weight:900; font-size:clamp(34px,4.6vw,46px); line-height:1;
+  letter-spacing:-.03em; color:var(--ink); white-space:nowrap}
+.ledger dt small{font-size:.5em; letter-spacing:-.01em; margin-left:2px; color:var(--accent)}
+.ledger dd{margin:0; font-size:14px; line-height:1.4; color:var(--mute); flex:1 1 220px}
+.ledger dd b{display:block; color:var(--ink); font-weight:600; font-size:15px}
+
+/* section heads */
+section{scroll-margin-top:64px}
+.sec{padding:64px 0 24px}
+.sec-head{display:grid; gap:8px; margin:0 0 30px}
+.sec-no{font-family:var(--mono); font-size:13px; color:var(--mute); letter-spacing:.08em}
+.sec-head h2{font-family:var(--display); font-weight:800; font-size:clamp(30px,5vw,48px); line-height:1;
+  letter-spacing:-.03em; margin:0}
+.sec-head p{margin:4px 0 0; color:var(--mute); max-width:60ch}
+.sec-head h2.h2-sm{font-size:clamp(24px,3.6vw,34px)}
+.sec.tight{padding-top:24px}
+
+/* case files */
+.cases{padding-bottom:8px}
+.case-grid{display:grid; gap:20px; align-items:start}
+@media (min-width:980px){
+  .case-grid{grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; align-items:stretch}
+  .case-grid .case,.case-grid .steps{display:flex; flex-direction:column}
+  .case-grid .steps{flex:1}
+  .case-grid .steps .res{margin-top:auto}
+}
+.case{background:var(--card); border:1px solid var(--line); border-radius:8px; padding:22px 20px 18px; box-shadow:var(--shadow)}
+@media (min-width:700px){.case{padding:28px 28px 22px}}
+.case-tag{font-family:var(--mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--mute); margin:0 0 8px}
+.case h3{font-family:var(--display); font-weight:800; font-size:clamp(23px,2.6vw,28px); line-height:1.1; letter-spacing:-.02em; margin:0 0 16px}
+.steps{list-style:none; margin:0; padding:0}
+.steps li{display:grid; grid-template-columns:104px 1fr; gap:12px; padding:10px 0; border-top:1px solid var(--line); font-size:15.5px; line-height:1.45}
+.steps li:first-child{border-top:0; padding-top:0}
+.steps b{font-family:var(--mono); font-weight:600; font-size:12px; letter-spacing:.04em; text-transform:uppercase; padding-top:3px}
+.steps li.res{border-top:2px solid var(--ink); font-weight:600}
+.steps li.res b{color:var(--accent)}
+@media (max-width:420px){.steps li{grid-template-columns:1fr; gap:2px}}
+
+/* how I work */
+.how{background:var(--ink); color:var(--paper); padding:56px 0 60px}
+.how .sec-head h2{color:var(--paper)}
+.how .sec-no{color:var(--mute-dark)}
+.how ol{list-style:none; margin:0; padding:0; display:grid; gap:1px; background:#2C3036; border:1px solid #2C3036}
+@media (min-width:700px){.how ol{grid-template-columns:1fr 1fr}}
+@media (min-width:1080px){.how ol{grid-template-columns:repeat(4,1fr)}}
+.how li{background:var(--ink); padding:22px 20px 24px}
+.how h3{font-family:var(--display); font-weight:800; font-size:21px; letter-spacing:-.01em; margin:0 0 10px; line-height:1.15}
+.how h3 span{display:block; font-family:var(--mono); font-weight:500; font-size:12px; color:var(--mute-dark); letter-spacing:.08em; margin-bottom:10px}
+.how p{margin:0 0 10px; font-size:15px; color:#C9CED3}
+.how p:last-child{margin-bottom:0}
+.how .tags{font-family:var(--mono); font-size:12px; color:var(--mute-dark); line-height:1.7}
+.how a{color:var(--paper); text-underline-offset:3px}
+
+/* project card */
+.project{background:var(--card); border:1px solid var(--line); border-radius:6px; padding:22px 18px 8px; margin:0 0 28px}
+@media (min-width:700px){.project{padding:34px 34px 14px}}
+.p-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; margin:0 0 6px}
+.p-head h3{font-family:var(--display); font-weight:800; font-size:clamp(26px,3.6vw,36px); letter-spacing:-.025em; margin:0; line-height:1.05}
+.flag{font-family:var(--mono); font-size:12px; color:var(--mute); white-space:nowrap}
+.oneliner{font-size:18px; line-height:1.45; margin:0 0 18px; max-width:52ch}
+.spec{display:flex; flex-wrap:wrap; gap:8px; list-style:none; margin:0 0 24px; padding:0}
+.spec li{font-family:var(--mono); font-size:12.5px; background:var(--paper); border-radius:3px; padding:5px 10px; line-height:1.35}
+.spec li b{font-weight:500; color:var(--mute); margin-right:6px}
+.p-body{display:grid; gap:26px}
+.project.spaced{margin-top:36px}
+@media (min-width:980px){.p-body:not(.stacked){grid-template-columns:minmax(0,1fr) minmax(0,1.15fr); gap:40px; align-items:start}}
+.outcomes{list-style:none; margin:0; padding:0; counter-reset:o}
+.outcomes li{position:relative; padding:12px 0 12px 34px; border-top:1px solid var(--line); line-height:1.45}
+.outcomes li:first-child{border-top:0; padding-top:0}
+.outcomes li::before{counter-increment:o; content:counter(o,decimal-leading-zero); position:absolute; left:0; top:14px;
+  font-family:var(--mono); font-size:11.5px; color:var(--mute)}
+.outcomes li:first-child::before{top:2px}
+@media (min-width:980px){
+  .stacked .outcomes{display:grid; grid-template-columns:repeat(3,1fr); gap:0 28px}
+  .stacked .outcomes li{border-top:0; padding-top:0}
+  .stacked .outcomes li::before{top:2px}
+}
+.outcomes strong{font-weight:600}
+.more{font-family:var(--mono); font-size:12.5px; color:var(--accent); text-underline-offset:3px; white-space:nowrap}
+.more:hover{color:var(--ink)}
+
+/* disclosure */
+details.deep{border-top:2px solid var(--ink); margin:26px 0 18px}
+details.deep summary{cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; gap:12px;
+  padding:14px 0; font-family:var(--mono); font-size:13.5px; font-weight:600; letter-spacing:.04em}
+details.deep summary::-webkit-details-marker{display:none}
+details.deep summary .hint{font-weight:400; color:var(--mute); font-size:12.5px}
+details.deep summary::after{content:"+"; font-family:var(--mono); font-size:20px; line-height:1;
+  width:28px; height:28px; display:grid; place-items:center; border:1.5px solid var(--ink); border-radius:50%; flex:none}
+details.deep[open] summary::after{content:"\2212"}
+details.deep summary:hover{text-decoration:underline; text-underline-offset:4px}
+.deep-grid{display:grid; gap:18px 36px; padding:4px 0 18px}
+@media (min-width:860px){.deep-grid{grid-template-columns:1fr 1fr}}
+.deep-grid h4{font-family:var(--mono); font-size:12.5px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; margin:0 0 6px}
+.deep-grid p{margin:0; font-size:15px; line-height:1.55}
+
+/* screenshots: one frame for all, a minimal browser window; phones drop the chrome */
+.shot{margin:0}
+.shot .frame{display:block; position:relative; background:var(--card); border:1px solid var(--line); border-radius:8px; overflow:hidden;
+  box-shadow:var(--shadow); transition:transform .2s ease, box-shadow .2s ease; cursor:zoom-in}
+.shot .frame::before{content:""; display:block; height:20px; border-bottom:1px solid var(--line);
+  background:radial-gradient(circle at 12px 50%,#CDD1D5 3.5px,transparent 4px),radial-gradient(circle at 25px 50%,#CDD1D5 3.5px,transparent 4px),
+    radial-gradient(circle at 38px 50%,#CDD1D5 3.5px,transparent 4px),#F4F5F6}
+.shot .frame::after{content:"Увеличить"; position:absolute; right:10px; bottom:10px; font-family:var(--mono); font-size:11px; letter-spacing:.06em;
+  background:var(--ink); color:#fff; padding:4px 8px; border-radius:3px; opacity:0; transition:opacity .2s ease}
+.shot .frame:hover,.shot .frame:focus-visible{transform:translateY(-2px); box-shadow:0 2px 4px rgba(20,22,26,.06),0 18px 40px -16px rgba(20,22,26,.4)}
+.shot .frame:hover::after,.shot .frame:focus-visible::after{opacity:1}
+.shot img{display:block; width:100%; height:auto; aspect-ratio:2/1; object-fit:cover; object-position:top center}
+.shot figcaption{font-family:var(--mono); font-size:12px; color:var(--mute); padding:10px 2px 0; line-height:1.45}
+.shots{display:grid; gap:18px}
+.shots.two{grid-template-columns:1fr 1fr}
+.shots.three{grid-template-columns:repeat(3,1fr)}
+.shots .lead{grid-column:1/-1}
+@media (max-width:700px){.shots.three{grid-template-columns:1fr}.shots{gap:14px}.shots.two .shot:not(.lead) figcaption{font-size:11.5px}}
+.shots.phones{grid-template-columns:repeat(3,1fr); align-items:start}
+.shots.phones .frame{border-radius:16px; background:#0E1621}
+.shots.phones .frame::before{display:none}
+.shots.phones img{aspect-ratio:3/4}
+@media (max-width:700px){.shots.phones{grid-template-columns:1fr 1fr}.shots.phones .shot:last-child{grid-column:1/-1; width:50%; justify-self:center}}
+
+/* before/after */
+.redesign{padding:8px 0 8px}
+.ba-list{display:grid; gap:44px}
+.ba-note{font-size:15.5px; color:var(--mute); margin:0 0 14px; max-width:70ch}
+.ba-note b{color:var(--ink); font-weight:600}
+.ba{position:relative}
+.ba-frame{position:relative; overflow:hidden; user-select:none; -webkit-user-select:none; border:1px solid var(--line); border-radius:8px;
+  background:var(--card); line-height:0; touch-action:pan-y; cursor:ew-resize; box-shadow:var(--shadow)}
+.ba:focus-within .ba-frame{outline:3px solid var(--accent); outline-offset:3px}
+.ba-frame img{display:block; width:100%; height:auto; max-height:560px; object-fit:cover; object-position:top center; pointer-events:none}
+.ba-top{position:absolute; inset:0; clip-path:inset(0 28% 0 0)}
+.ba-handle{position:absolute; top:0; bottom:0; left:72%; width:3px; background:var(--accent); transform:translateX(-1.5px); pointer-events:none;
+  box-shadow:0 0 0 1px rgba(255,255,255,.7)}
+.ba-knob{position:absolute; top:50%; left:50%; width:48px; height:48px; transform:translate(-50%,-50%); border-radius:50%;
+  background:var(--accent); border:3px solid #fff; box-shadow:0 4px 14px rgba(20,22,26,.35); display:grid; place-items:center}
+.ba-knob svg{width:24px; height:24px}
+.ba-tag{position:absolute; top:14px; font-family:var(--mono); font-size:12px; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
+  background:var(--ink); color:#fff; padding:6px 10px; border-radius:3px; line-height:1.3; pointer-events:none}
+.ba-tag.l{left:14px}
+.ba-tag.r{right:14px; background:var(--accent)}
+.ba-full{font-family:var(--mono); font-size:12.5px; color:var(--mute); margin:12px 0 0}
+.ba-full a{color:var(--ink); text-underline-offset:3px; margin-left:6px}
+@media (max-width:700px){.ba-tag{top:8px; font-size:10.5px; padding:4px 7px}.ba-tag.l{left:8px}.ba-tag.r{right:8px}.ba-knob{width:40px; height:40px}}
+
+/* earlier */
+.story{display:grid; gap:20px; margin:0 0 28px}
+@media (min-width:980px){.story{grid-template-columns:1.4fr 1fr; align-items:start}}
+.quote{background:var(--card); border-left:4px solid var(--ink); border-radius:0 6px 6px 0; padding:22px 22px 20px}
+.quote .lab{font-family:var(--mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--mute); margin:0 0 10px}
+.quote .big{font-family:var(--display); font-weight:800; font-size:clamp(22px,2.8vw,28px); line-height:1.15; letter-spacing:-.02em; margin:0 0 14px}
+.quote .steps{margin:0}
+.small-cards{display:grid; gap:20px}
+.mini{background:var(--card); border:1px solid var(--line); border-radius:6px; padding:20px}
+.mini h3{font-family:var(--display); font-weight:800; font-size:21px; letter-spacing:-.015em; margin:0 0 4px; line-height:1.15}
+.mini .meta{font-family:var(--mono); font-size:12px; color:var(--mute); margin:0 0 10px}
+.mini p{margin:0 0 8px; font-size:15px}
+.mini a{font-weight:500; text-underline-offset:3px}
+
+/* open source */
+.repos{display:grid; gap:20px}
+@media (min-width:980px){.repos{grid-template-columns:repeat(3,minmax(0,1fr))}.repos .flagship{grid-column:1/-1}}
+.repo{background:var(--card); border:1px solid var(--line); border-radius:6px; padding:22px 20px 20px; display:flex; flex-direction:column}
+.repo.flagship{border:2px solid var(--ink)}
+.repo .top{display:flex; justify-content:space-between; gap:12px; align-items:baseline; flex-wrap:wrap; margin:0 0 8px}
+.repo h3{font-family:var(--mono); font-weight:600; font-size:clamp(16px,2vw,19px); margin:0; word-break:break-word}
+.repo .badge{font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:#fff; background:var(--ink); padding:3px 8px; border-radius:3px}
+.repo p{margin:0 0 12px}
+.repo .spec{margin:0 0 16px}
+.repo .outcomes{margin-bottom:18px}
+.repo .go{margin-top:auto; font-family:var(--mono); font-size:13.5px; font-weight:600; color:var(--accent); text-decoration:none; align-self:flex-start; border-bottom:1.5px solid currentColor; padding-bottom:1px}
+.repo .go:hover{color:var(--ink)}
+.flag-body{display:grid; gap:22px}
+@media (min-width:980px){.flag-body{grid-template-columns:1fr 1.25fr; gap:36px; align-items:start}}
+
+/* contact */
+.contact{background:var(--accent); color:#fff; padding:56px 0; margin-top:48px}
+.contact h2{font-family:var(--display); font-weight:900; font-size:clamp(34px,6vw,64px); line-height:.98; letter-spacing:-.035em; margin:0 0 14px}
+.contact p{margin:0 0 24px; font-size:18px; max-width:40em}
+.contact .btn{border-color:#fff; background:transparent; color:#fff}
+.contact .btn:hover{background:#fff; color:var(--accent)}
+.contact .btn.primary{background:#fff; color:var(--accent); border-color:#fff}
+.contact .btn.primary:hover{background:var(--ink); color:#fff; border-color:var(--ink)}
+.contact .fine{color:#fff; font-size:13px; margin-top:4px; max-width:none}
+.contact .fine a{color:#fff}
+
+.foot{padding:28px 0 48px; font-family:var(--mono); font-size:12.5px; color:var(--mute)}
+.foot p{margin:0 0 8px; max-width:80ch}
+
+/* lightbox, built by the script; links still open the file without JS */
+.lb{position:fixed; inset:0; width:100%; height:100%; max-width:none; max-height:none; margin:0; padding:0; border:0;
+  background:rgba(14,15,18,.9); color:#fff; overflow:hidden; opacity:0; transition:opacity .2s ease}
+.lb::backdrop{background:transparent}
+.lb.is-open{opacity:1}
+.lb-stage{height:100%; display:flex; align-items:center; justify-content:center; padding:64px 76px 24px}
+.lb-fig{margin:0; display:flex; flex-direction:column; align-items:center; max-width:100%; transform:scale(.96); transition:transform .2s ease}
+.lb.is-open .lb-fig{transform:none}
+.lb-img{display:block; max-width:min(1400px,100%); max-height:calc(100vh - 150px); width:auto; height:auto; border-radius:6px;
+  background:#fff; box-shadow:0 24px 70px rgba(0,0,0,.55)}
+.lb-cap{display:flex; flex-wrap:wrap; justify-content:center; gap:4px 16px; margin-top:14px; font-family:var(--mono); font-size:13px;
+  color:#D5D9DD; text-align:center; max-width:72ch}
+.lb-count{color:var(--mute-dark)}
+.lb-btn{position:absolute; width:46px; height:46px; border-radius:50%; border:1px solid rgba(255,255,255,.28); background:rgba(20,22,26,.7);
+  color:#fff; display:grid; place-items:center; cursor:pointer; padding:0}
+.lb-btn:hover{background:var(--accent); border-color:var(--accent)}
+.lb-btn svg{width:22px; height:22px}
+.lb-btn[hidden]{display:none}
+.lb :focus-visible{outline:3px solid #fff; outline-offset:3px}
+.lb-close{top:14px; right:14px}
+.lb-prev{left:16px; top:50%; transform:translateY(-50%)}
+.lb-next{right:16px; top:50%; transform:translateY(-50%)}
+@media (max-width:700px){
+  .lb-stage{padding:64px 10px 84px}
+  .lb-img{max-height:calc(100vh - 210px)}
+  .lb-prev,.lb-next{top:auto; bottom:18px; transform:none}
+  .lb-prev{left:calc(50% - 58px)}
+  .lb-next{right:calc(50% - 58px)}
+}
+
+/* load and reveal motion: only when JS runs and motion is welcome, so nothing stays hidden otherwise */
+@keyframes rise{from{opacity:0; transform:translateY(12px)}to{opacity:1; transform:none}}
+@media (prefers-reduced-motion:no-preference){
+  .js .hero .in1,.js .hero .in2,.js .hero .in3,.js .hero .in4,.js .hero .in5{animation:rise .34s cubic-bezier(.2,.7,.3,1) both}
+  .js .hero .in2{animation-delay:.05s}
+  .js .hero .in3{animation-delay:.1s}
+  .js .hero .in4{animation-delay:.15s}
+  .js .hero .in5{animation-delay:.12s; animation-duration:.4s}
+  .io .reveal:not(.on){opacity:0; transform:translateY(18px)}
+  .io .reveal{transition:opacity .5s ease, transform .5s cubic-bezier(.2,.7,.3,1)}
+}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none !important; animation:none !important}
+}
+
+@media print{
+  @page{margin:14mm}
+  body{background:#fff; font-size:10.5pt}
+  .bar,.skip,.ba-handle,.ba-top,.ba-full,.contact .ctas,.shots,.lb{display:none !important}
+  .reveal{opacity:1 !important; transform:none !important}
+  .hero,.sec{padding:12pt 0}
+  .how,.contact{background:#fff; color:var(--ink); padding:12pt 0}
+  .how li{background:#fff}
+  .how p,.how .tags,.how h3,.how .sec-head h2,.how a{color:var(--ink)}
+  .ledger{background:#fff; color:var(--ink); border:1px solid var(--line)}
+  .ledger dt,.ledger dd,.ledger dd b{color:var(--ink)}
+  .contact h2,.contact p,.contact .fine{color:var(--ink)}
+  .project,.repo,.mini,.case,.ba{break-inside:avoid; border-color:#999; box-shadow:none}
+  .ba-frame{box-shadow:none}
+  details.deep summary::after{display:none}
+  a[href^="http"]::after{content:" (" attr(href) ")"; font-size:8pt; color:var(--mute); word-break:break-all}
+  .ba-tag{display:none}
+}
+
+  .ledger dt{min-width:0;font-size:clamp(28px,3vw,40px);overflow-wrap:anywhere}
+  .ledger .row{display:block}
+  .ledger dd{margin-top:6px}
+
+.skills-list{max-width:820px; margin:0}
+.skills-list div{display:grid; grid-template-columns:10rem minmax(0,1fr); gap:8px 20px; padding:9px 0; border-bottom:1px solid var(--line)}
+.skills-list dt{font:600 12px/1.5 var(--mono); text-transform:uppercase; letter-spacing:.06em; color:var(--mute)}
+.skills-list dd{margin:0; font-size:15px; overflow-wrap:anywhere}
+@media(max-width:560px){.skills-list div{grid-template-columns:1fr; gap:3px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#cases">К содержанию</a>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="who" href="#top">Богдан Викторович Максимов</a>
+    <nav aria-label="Разделы">
+      <ul>
+        <li><a href="#cases">Кейсы</a></li>
+        <li><a href="#work">Проекты</a></li>
+        <li><a href="#how">Как я работаю</a></li>
+        <li><a href="#earlier">Ранний опыт</a></li>
+        <li><a href="#oss">Открытый код</a></li>
+      </ul>
+    </nav>
+    <a class="hire" href="mailto:asterr.developer@gmail.com">Написать мне</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- hero -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap grid">
+    <div>
+      <p class="status in1"><span class="dot" aria-hidden="true"></span><span><b>PHP-разработчик</b> · Laravel, Vue 3 и MySQL</span></p>
+      <p class="eyebrow in1">Богдан Викторович Максимов</p>
+      <h1 id="hero-title" class="in2">PHP/Laravel-разработчик <span class="stack">PHP 8, Vue 3, MySQL, Laravel</span></h1>
+      <p class="value in3">Разрабатываю внутренние системы на Laravel: диспетчерские, складской учёт, CRM и интеграции с ERP.</p>
+      <ul class="ctas in4">
+        <li><a class="btn primary" href="mailto:asterr.developer@gmail.com">Написать мне</a></li>
+        <li><a class="btn dark" href="ASTERR_PORTFOLIO.pdf" download>Скачать резюме <span class="k">PDF</span></a></li>
+        <li><a class="btn" href="https://github.com/asterr-developer">GitHub</a></li>
+        <li><a class="btn" href="tel:+79818550719">Позвонить</a></li>
+      <li><a class="btn" href="https://t.me/asterrasterr">Telegram</a></li>
+      </ul>
+      <p class="fine in4"><a href="#skills">Технический стек</a> · <a href="ASTERR_PORTFOLIO.pdf" download>Резюме</a></p>
+    </div>
+
+    <aside class="ledger in5" aria-labelledby="proof-title">
+      <h2 id="proof-title">Оптимизация и интеграции</h2>
+      <dl>
+        <div class="row"><dt>1,36 <small>с</small> → 0,0192 <small>с</small></dt><dd><b>Ответ диспетчерской "Магистрали", p95</b>Стенд с 3 000 позициями каталога. Полный каталог загружается при первом открытии формы. <a href="#magistral-performance">Условия замера</a></dd></div>
+        <div class="row"><dt>4,86 <small>с</small> → 0,0058 <small>с</small></dt><dd><b>Ответ списка предложений "Сметы", p95</b>На 100 000 тестовых смет сервер отдаёт первую страницу. JSON первой загрузки сократился со 130 МБ до 9,2 КБ. <a href="#estimate-performance">Условия замера</a></dd></div>
+        <div class="row"><dt>CRM, ERP <small>и API</small></dt><dd><b>Разработка интеграций с внешними сервисами</b>Разрабатываю интеграции через REST API и вебхуки, в том числе с Odoo ERP. Из B2B CRM брони поступают в "Магистраль", где их связывают с заявками на перевозку. ERP может получать статусы рейсов и складские движения. "Смета" возвращает в CRM данные принятого предложения, а заявки и сообщения из Telegram Mini App поступают в кабинет подрядчика.</dd></div>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+
+
+<!-- case files -->
+<section class="sec cases" id="cases" aria-labelledby="cases-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-no">01 / Кейсы</span>
+      <h2 id="cases-title">Два технических кейса</h2>
+    </div>
+    <div class="case-grid">
+      <article class="case reveal" id="case-jobs" aria-labelledby="case-jobs-title">
+  <p class="case-tag">Магистраль · складской учёт</p>
+  <h3 id="case-jobs-title">Два запроса на возврат. Одно зачисление на склад</h3>
+  <ol class="steps">
+    <li><b>Риск</b><span>Повторная отправка формы могла дважды зачислить один возврат. Два разных частичных возврата могли вместе превысить отгруженное количество.</span></li>
+    <li><b>Блокировки</b><span>В транзакции блокируются строки рейса и фасовки через <code>lockForUpdate()</code>. Лимит проверяется по исходной отгрузке за вычетом прошлых возвратов.</span></li>
+    <li><b>Защита от дублей</b><span>UUID запроса хранится в складском журнале под уникальным индексом. Повтор запроса с тем же ключом не меняет остаток.</span></li>
+    <li class="res"><b>Результат</b><span><strong>1 складское движение на UUID.</strong> Остаток и запись в журнале обновляются в одной транзакции.</span></li>
+  </ol>
+</article>
+<article class="case reveal" id="case-customs" aria-labelledby="case-customs-title">
+  <p class="case-tag">B2B CRM · PostgreSQL</p>
+  <h3 id="case-customs-title">Две заявки на последний номер</h3>
+  <ol class="steps">
+    <li><b>Риск</b><span>Два менеджера одновременно запрашивают последний номер на пересекающиеся даты. Без блокировки оба могут увидеть свободное место.</span></li>
+    <li><b>Решение</b><span>Строка категории номера блокируется в PostgreSQL на время транзакции. Доступность пересчитывается после получения блокировки, до записи резерва.</span></li>
+    <li><b>Проверка</b><span>Сценарий запускает 2 независимые сессии, дожидается, пока обе встанут в очередь за одной блокировкой, и только затем отпускает её.</span></li>
+    <li class="res"><b>Результат</b><span><strong>1 резерв и 1 отказ при успешной проверке.</strong> Сценарий дополнительно сверяет, что в базе создана ровно одна запись резерва.</span></li>
+  </ol>
+</article>
+    </div>
+  </div>
+</section>
+
+<!-- work -->
+<section class="sec" id="work" aria-labelledby="work-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-no">02 / Избранные проекты</span>
+      <h2 id="work-title">Опыт работы и проекты</h2>
+    </div>
+
+    <article class="project reveal" id="argo-media" aria-labelledby="argo-media-title">
+      <div class="p-head"><h3 id="argo-media-title">ООО "Арго Медиа"</h3></div>
+      <ul class="spec">
+        <li><b>Роль</b>PHP-разработчик (Laravel)</li>
+        <li><b>Период</b>июль 2024 - октябрь 2026</li>
+      </ul>
+      <div class="deep-grid">
+        <div>
+          <h4>Внутренние системы</h4>
+          <p>Начал с фриланс-заказа для компании. После его выполнения получил предложение перейти в штат. Предлагал и проектировал новые внутренние системы, дорабатывал существующие. В <a href="#magistral">"Магистрали"</a> отвечал за сценарии диспетчерской и склада, защиту от повторного зачисления возвратов и обмен с CRM и ERP.</p>
+          <p style="margin-top: 0.65em">В "Магистрали" связал весь процесс перевозки. Диспетчер собирает заявки в рейс, назначает машину и водителя. Склад видит резерв и сверяет фактический груз по листу комплектации. При выезде система закрывает резерв, списывает груз и сохраняет движение в журнале. При частичном возврате учитывает ранее возвращённые позиции и защищает остаток от повторной обработки запроса.</p>
+        </div>
+        <div>
+          <h4>Ускорение рабочих операций</h4>
+          <p>Документы по перевозкам стали формироваться быстрее. В компании также использовали отдельные наработки из <a href="#estimate">&quot;Сметы&quot;</a>. Стендовые результаты дальнейшей оптимизации приведены в <a href="#magistral-performance">карточке "Магистрали"</a>.</p>
+          <h4 style="margin-top: 18px">Документы из данных рейса</h4>
+          <p>Из заявки на перевозку формируются лист комплектации и печатная форма УПД. Кладовщик сверяет фасовки и количество по листу, а диспетчер готовит документ на основе данных рейса.</p>
+        </div>
+              <div>
+          <h4>Интеграции с CRM и ERP</h4>
+          <p>Подтверждённые брони из B2B CRM связываются с заявками на перевозку. Данные сначала загружаются целиком, затем обновляются одной транзакцией. При повторном импорте привязки к рейсам сохраняются. ERP получает статусы заявок и складские движения через REST API.</p>
+        </div>
+        <div>
+          <h4>ИИ-разбор заявок</h4>
+          <p>Автоматизировал первичный разбор заявок. ИИ извлекал данные из свободного текста и заполнял черновик. Сотрудник проверял поля перед сохранением, поэтому данные из заявки не приходилось переносить вручную.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- project -->
+    <article class="project reveal" id="magistral" aria-labelledby="magistral-title"><div class="p-head"><h3 id="magistral-title">Магистраль</h3><span class="flag">Закрытый репозиторий</span></div><p class="oneliner">Внутренняя система ООО "Арго Медиа" для диспетчерской и склада. Связывает заявки на перевозку, комплектацию, выезд и возвраты. Вёл значительную часть разработки. Скриншоты опубликованы с разрешения компании, её данные скрыты.</p><ul class="spec"><li><b>Роль</b>PHP-разработчик (Laravel)</li><li><b>Стек</b>PHP, Laravel, Vue 3, Vite</li><li><b>База данных</b>MySQL и SQLite</li><li><b>Проверки</b>PHPUnit, GitHub Actions</li></ul><div class="p-body"><ul class="outcomes"><li><strong>Заявки и рейсы</strong>. Диспетчер назначает водителя и свободную машину. Один маршрут может объединять несколько заявок.</li><li><strong>Резервирование фасовок</strong>. Заявка резервирует выбранные фасовки, а кладовщик сверяет фактическое количество по листу комплектации.</li><li><strong>Списание при выезде</strong>. Подтверждение выезда списывает физический остаток и закрывает резерв.</li><li><strong>Частичный возврат</strong>. Частичный возврат обрабатывается в транзакции. Строки рейса и фасовки блокируются, количество сверяется с отгрузкой и предыдущими возвратами. Повтор с тем же UUID не меняет остаток второй раз.</li><li><strong>Журнал склада</strong>. По каждой операции сохраняются количество и остаток до и после движения.</li><li><strong>Проверки на двух СУБД</strong>. Ключевые сценарии запускаются в GitHub Actions на SQLite и MySQL.</li><li><strong>Импорт брони из B2B CRM</strong>. Диспетчер связывает подтверждённую бронь с новой заявкой на перевозку. Повторный импорт сохраняет связь.</li><li><strong>API для ERP</strong>. Учётная система может забирать статусы заявок, ссылки на CRM и складские движения с фасовками и остатками.</li></ul><div class="shots" data-gallery><figure class="shot"><a class="frame" href="images/current-logistics-dispatch.png"><img src="images/current-logistics-dispatch.png" width="1440" height="960" alt="Диспетчерская: заявки и состояния рейсов" loading="lazy"></a><figcaption>Диспетчерская: заявки и состояния рейсов</figcaption></figure><figure class="shot"><a class="frame" href="images/current-logistics-warehouse.png"><img src="images/current-logistics-warehouse.png" width="1440" height="960" alt="Склад: фасовки, остатки и резервы" loading="lazy"></a><figcaption>Склад: фасовки, остатки и резервы</figcaption></figure></div></div><details class="deep"><summary><span>Как это устроено <span class="hint">технические детали</span></span></summary><div class="deep-grid"><div id="magistral-performance"><h4>Стендовые замеры диспетчерской</h4><p>Каталог раньше повторялся в полях выбора груза. Теперь начальный HTML содержит выбранные позиции, а полный каталог и Vue-компонент загружаются при открытии формы. На 3 000 позициях и 12 рейсах медиана ответа Laravel снизилась с 1,2702 до 0,0142 с, p95 - с 1,3595 до 0,0192 с. HTML с gzip сократился с 1 782 793 до 5 765 байт. SQLite в памяти, 5 запросов на прогрев и 30 замеров. Сеть и отрисовка браузера не учитывались.</p><p>Отдельно на 100 000 синтетических рейсов p95 SQL-поиска по полному номеру снизился с 0,03152 до 0,0000015 с. Это время SQL в SQLite без Laravel и браузера.</p></div><div><h4>От заявки до комплектации</h4><p>Диспетчер формирует заявку, назначает водителя и машину. Кладовщик видит зарезервированные позиции в листе комплектации.</p></div><div><h4>Остатки и резерв</h4><p>Активный резерв хранится отдельно от снимка груза в заявке. При выезде резерв закрывается, а физический запас уменьшается.</p></div><div><h4>Защита от повторного возврата</h4><p>Рейс и фасовка читаются через <code>lockForUpdate()</code> в Laravel Query Builder. Ключ запроса хранится в записи складского движения. Остаток и запись в журнале меняются в одной транзакции.</p></div><div><h4>Обмен с CRM и ERP</h4><p>Выгрузка ERP использует курсорную пагинацию: до 100 записей на страницу, лимит 60 запросов в минуту. При импорте броней из CRM проверяется до 40 страниц. Изменения применяются одной транзакцией после получения полной выгрузки.</p></div><div><h4>Контроль сценария</h4><p>Проверки охватывают резервирование, выезд и возврат. Возврат связан с рейсом и отображается в складском журнале.</p></div></div></details></article>
+
+    <!-- project -->
+    <article class="project reveal" id="estimate" aria-labelledby="estimate-title"><div class="p-head"><h3 id="estimate-title">Смета</h3><span class="flag">Laravel</span></div><p class="oneliner">Редактор смет и коммерческих предложений. Подрядчик собирает документ, проверяет расчёт и отправляет клиенту ссылку для согласования.</p><p class="oneliner">Первые функции разработал для &quot;Арго Медиа&quot;, полный функционал - для заказчика на фрилансе. Исходные данные в примерах изменены по просьбе заказчика сохранить анонимность.</p><ul class="spec"><li><b>Роль</b>PHP-разработчик (Laravel)</li><li><b>Стек</b>PHP, Laravel, Vue 3, Vite</li><li><b>Документы</b>PDF и Excel</li><li><b>База данных</b>SQLite и MySQL</li><li><a href="https://github.com/asterr-developer/estimate">Исходный код на GitHub</a></li></ul><div class="p-body"><ul class="outcomes"><li><strong>Редактор смет</strong>. Позиции, этапы работ, скидки, НДС и график платежей с предпросмотром расчёта.</li><li><strong>Экспорт документов</strong>. Подготовил выгрузку PDF формата A4 и Excel.</li><li><strong>Согласование по ссылке</strong>. Клиент может скачать документ, сообщить о согласии или запросить изменения по позициям.</li><li><strong>Версии и события</strong>. Сохраняются условия версии, история правок и действия по документу.</li><li><strong>Обмен с B2B CRM</strong>. Из сделки создаётся связанный черновик. После принятия CRM получает номер, сумму и ссылку на документ.</li><li><strong>Выгрузка принятых версий</strong>. ERP может получать принятые сметы через API. Новая непринятая редакция не заменяет принятую.</li></ul><div class="shots" data-gallery><figure class="shot"><a class="frame" href="images/current-estimate-editor.png"><img src="images/current-estimate-editor.png" width="1440" height="960" alt="Редактор предложения и предпросмотр расчёта" loading="lazy"></a><figcaption>Редактор предложения и предпросмотр расчёта</figcaption></figure><figure class="shot"><a class="frame" href="images/current-estimate-history.png"><img src="images/current-estimate-history.png" width="1440" height="960" alt="Список коммерческих предложений" loading="lazy"></a><figcaption>Список коммерческих предложений</figcaption></figure></div></div><details class="deep"><summary><span>Как это устроено <span class="hint">технические детали</span></span></summary><div class="deep-grid"><div id="estimate-performance"><h4>Стендовые замеры списка и Telegram</h4><p>Перенёс список предложений на серверную пагинацию. На 100 000 тестовых смет p95 ответа Laravel снизился с 4,86 с до 0,0058 с, объём JSON - со 130 МБ до 9,2 КБ. До оптимизации сервер выгружал весь архив. После перехода на пагинацию сервер отдаёт первую страницу. По 10 замеров на вариант.</p><p>Индексы для входящих Telegram снизили p95 с 0,04715 до 0,00138 с на 100 000 тестовых обращений. По 30 прогретых запросов на вариант. Оба сценария измерялись через HTTP-ядро Laravel на SQLite в памяти, без сети и отрисовки браузера.</p></div><div><h4>Расчёт</h4><p>Цены и суммы рассчитываются до копейки. Скидка учитывается до НДС, доли платежей должны составлять 100%.</p></div><div><h4>Документы и импорт</h4><p>В кабинете можно выгрузить PDF и Excel или импортировать позиции из CSV с проверкой строк.</p></div><div><h4>Версии сметы</h4><p>У версии остаются собственные цены и условия. Поздние изменения можно сравнить, а действия видны в журнале.</p></div><div><h4>Telegram Mini App</h4><p>Прототип проверяет обмен заявками и вопросами с кабинетом. Развёртывание для клиентов не заявлено.</p></div></div></details></article>
+
+    <!-- redesign -->
+    <section class="redesign" aria-labelledby="redesign-title">
+      <div class="sec-head reveal">
+        <span class="sec-no">Интерфейс</span>
+        <h2 id="redesign-title" class="h2-sm">Светлая и тёмная темы</h2>
+        <p>Перетащите ползунок или выберите его и меняйте положение клавишами со стрелками.</p>
+      </div>
+      <div class="ba-list">
+        <div class="reveal">
+          <p class="ba-note"><b>Диспетчерская.</b> Один экран в двух темах.</p>
+          <div class="ba" data-ba>
+            <div class="ba-frame">
+              <img src="images/current-logistics-dispatch-dark.png" width="1440" height="960" alt="Тёмная тема диспетчерской" loading="lazy">
+              <div class="ba-top"><img src="images/current-logistics-dispatch.png" width="1440" height="960" alt="Светлая тема диспетчерской" loading="lazy"></div>
+              <div class="ba-handle" aria-hidden="true"><span class="ba-knob"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-5 6 5 6M15 6l5 6-5 6"/></svg></span></div>
+              <span class="ba-tag l">Светлая</span><span class="ba-tag r">Тёмная</span>
+            </div>
+            <input class="sr" type="range" min="0" max="100" value="72" aria-valuetext="Светлая: 72%, тёмная: 28%" aria-label="Сравнить светлую и тёмную темы">
+          </div>
+          <p class="ba-full" data-gallery>Полный размер: <a class="lb-link" href="images/current-logistics-dispatch.png" data-caption="Светлая тема диспетчерской">светлая</a> / <a class="lb-link" href="images/current-logistics-dispatch-dark.png" data-caption="Тёмная тема диспетчерской">тёмная</a></p>
+        </div>
+        <div class="reveal">
+          <p class="ba-note"><b>Карточка заявки.</b> Поля и действия доступны в обеих темах.</p>
+          <div class="ba" data-ba>
+            <div class="ba-frame">
+              <img src="images/current-logistics-shipment-dark.png" width="1440" height="960" alt="Тёмная тема карточки заявки" loading="lazy">
+              <div class="ba-top"><img src="images/current-logistics-shipment-light.png" width="1440" height="960" alt="Светлая тема карточки заявки" loading="lazy"></div>
+              <div class="ba-handle" aria-hidden="true"><span class="ba-knob"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-5 6 5 6M15 6l5 6-5 6"/></svg></span></div>
+              <span class="ba-tag l">Светлая</span><span class="ba-tag r">Тёмная</span>
+            </div>
+            <input class="sr" type="range" min="0" max="100" value="72" aria-valuetext="Светлая: 72%, тёмная: 28%" aria-label="Сравнить светлую и тёмную темы">
+          </div>
+          <p class="ba-full" data-gallery>Полный размер: <a class="lb-link" href="images/current-logistics-shipment-light.png" data-caption="Светлая тема карточки заявки">светлая</a> / <a class="lb-link" href="images/current-logistics-shipment-dark.png" data-caption="Тёмная тема карточки заявки">тёмная</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- project -->
+    <article class="project spaced reveal" id="site" aria-labelledby="site-title"><div class="p-head"><h3 id="site-title">B2B CRM</h3><span class="flag">Демо</span></div><p class="oneliner">Демо CRM для корпоративных продаж в отеле. Ведёт групповую заявку от квалификации и коммерческого предложения до бронирования и передачи брони в службу размещения.</p><ul class="spec"><li><b>Формат</b>Демонстрационный проект</li><li><b>Стек</b>Laravel, Inertia, Vue 3 и PostgreSQL</li><li><b>Доступ</b>Менеджер, руководитель и служба размещения</li><li><a href="https://github.com/asterr-developer/b2b-crm">Исходный код на GitHub</a></li></ul><div class="p-body"><ul class="outcomes">
+  <li><strong>Заявки из форм и почты</strong>. Менеджер уточняет даты заезда и число гостей, затем создаёт сделку из заявки. В очереди видны ответственный и просрочка первого ответа.</li>
+  <li><strong>Воронки и доступ отдела</strong>. Менеджер видит свои сделки, руководитель видит сделки отдела и перераспределяет заявки. Этапы и автоматические задачи настраиваются по воронкам.</li>
+  <li><strong>Согласование и отправка КП</strong>. Руководитель согласует конкретную версию. CRM фиксирует отправку и ответ клиента, а при отсутствии ответа создаёт напоминание по актуальной версии.</li>
+  <li><strong>Резервирование номеров</strong>. CRM проверяет доступность на даты проживания. Если при переносе мест не хватает, исходная бронь сохраняется.</li>
+  <li><strong>Работа службы размещения</strong>. Сотрудник принимает бронь или возвращает её продажам с причиной. Списки гостей импортируются из CSV с проверкой комнат и вместимости.</li>
+  <li><strong>Оплаты и отчёты</strong>. Менеджер вручную отмечает поступление депозита и остатка. Руководитель видит просрочки и время от заявки до отправки предложения.</li>
+</ul><div class="shots two" data-gallery><figure class="shot lead"><a class="frame" href="images/current-crm-deals.png"><img src="images/current-crm-deals.png" width="1440" height="960" alt="Воронка корпоративных продаж" loading="lazy"></a><figcaption>Воронка корпоративных продаж</figcaption></figure><figure class="shot lead"><a class="frame" href="images/current-crm-requests.png"><img src="images/current-crm-requests.png" width="1440" height="960" alt="Заявки на групповое размещение" loading="lazy"></a><figcaption>Заявки на групповое размещение</figcaption></figure></div></div><details class="deep"><summary><span>Как это устроено <span class="hint">технические детали</span></span></summary><div class="deep-grid"><div><h4>Входящие заявки и письма</h4><p>Подписанный вебхук внешней формы обрабатывает повтор события без дублирования заявки. IMAP-адаптер передаёт ответы в CRM. При совпадении отправителя и In-Reply-To письмо может привязаться к версии КП, спорные случаи остаются на ручной проверке.</p></div><div><h4>Проверка остатка номеров</h4><p>При подтверждении и переносе CRM проверяет доступный фонд на пересекающихся датах. Демосценарий с двумя параллельными запросами на последний номер проверяет, что резерв создаётся только для одного из них.</p></div><div><h4>Связь с другими проектами</h4><p>Из сделки открывается связанный черновик в "Смете". После принятия CRM получает номер, итог и ссылку на документ. Подтверждённую бронь можно импортировать в "Магистраль" и связать с заявкой на перевозку.</p></div></div></details></article>
+
+    <article class="project spaced reveal" id="estimate-mini" aria-labelledby="ic-title"><div class="p-head"><h3 id="ic-title">Смета Mini App</h3><span class="flag">Telegram Mini App</span></div><p class="oneliner">Клиент выбирает услуги, собирает заявку и переписывается с подрядчиком в Telegram. Подрядчик отвечает из кабинета "Сметы" и может приложить ссылку на документ.</p><ul class="spec"><li><b>Стек</b>PHP, Laravel, Vue 3, Vite, SQLite</li><li><b>Интеграция</b>Telegram Mini Apps SDK и кабинет "Сметы"</li><li><a href="https://github.com/asterr-developer/estimate-mini">Исходный код на GitHub</a></li></ul><div class="p-body"><ul class="outcomes"><li><strong>Каталог из справочника</strong>. Названия услуг, цены и единицы измерения берутся из кабинета подрядчика.</li><li><strong>Заявка из нескольких услуг</strong>. Клиент отправляет подборку сразу из мини-приложения.</li><li><strong>Переписка в одном месте</strong>. Вопросы видны в кабинете, ответы и ссылка на готовую смету появляются в мини-приложении.</li></ul><div class="shots phones" data-gallery><figure class="shot"><a class="frame" href="images/current-mini-catalog.png"><img src="images/current-mini-catalog.png" width="430" height="850" alt="Каталог услуг подрядчика" loading="lazy"></a><figcaption>Каталог услуг подрядчика</figcaption></figure><figure class="shot"><a class="frame" href="images/current-mini-request.png"><img src="images/current-mini-request.png" width="430" height="850" alt="Подбор услуг для заявки" loading="lazy"></a><figcaption>Подбор услуг для заявки</figcaption></figure></div></div></article>
+
+    <article class="project spaced reveal" id="kontur" aria-labelledby="kontur-title">
+      <div class="p-head"><h3 id="kontur-title">Контур</h3><span class="flag">Последний кейс на фрилансе · октябрь 2026</span></div>
+      <p class="oneliner">Калькулятор остекления для менеджера: от размеров окна, перегородки или фасадной секции до коммерческого предложения. Тарифы, формулы и клиентские данные в демо изменены по просьбе заказчика сохранить анонимность.</p>
+      <ul class="spec"><li><b>Стек</b>PHP, Laravel, SQLite</li><li><b>Документы</b>Импорт XLSX и экспорт PDF</li></ul>
+      <div class="p-body">
+        <ul class="outcomes">
+          <li><strong>Расчёт нескольких конструкций</strong>. Окна, перегородки и фасадные секции собираются в один заказ. Площадь, периметр и услуги учитываются отдельно. Для предпросмотра и сохранения используется одна серверная формула.</li>
+          <li><strong>Обновление прайса через XLSX</strong>. Администратор видит изменения перед импортом. Если цены изменились во время расчёта, менеджер подтверждает пересчёт.</li>
+          <li><strong>КП с фиксированными условиями</strong>. При выпуске сохраняются цены и комплектация. По ссылке на 14 дней клиент скачивает PDF и отправляет ответ. После правок создаётся новая версия, прежний документ остаётся в истории.</li>
+        </ul>
+        <div class="shots" data-gallery style="width: 100%; max-width: 350px">
+          <figure class="shot"><a class="frame" href="images/current-kontur-calculator.png"><img src="images/current-kontur-calculator.png" width="1200" height="820" alt="Калькулятор остекления с чертежом конструкции и итоговой стоимостью" loading="lazy" style="aspect-ratio: 1200 / 820"></a><figcaption>Калькулятор с данными демонстрационного заказа.</figcaption></figure>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- how I work -->
+<section class="how" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-no">03 / Как я работаю</span>
+      <h2 id="how-title">Что я привношу в команду</h2>
+    </div>
+    <ol class="reveal"><li><h3><span>A</span>От процесса к коду</h3><p>Сначала разбираю, кто выполняет действие, какие данные нужны и где возможны ошибки. Затем описываю правила и реализую их в Laravel.</p></li><li><h3><span>B</span>Данные и учёт</h3><p>Проверяю переходы, права доступа и согласованность данных. В складских сценариях учитываю заявки, резервы, отгрузку и возврат.</p></li><li><h3><span>C</span>Работа с ИИ</h3><p>Использую ИИ-агентов для разбора кода и подготовки изменений. Проверяю дифф, запускаю тесты и убираю лишнее.</p></li><li><h3><span>D</span>Проверка сценария</h3><p>Воспроизвожу цепочку действий через обычный интерфейс и проверяю данные после каждой операции.</p></li></ol>
+  </div>
+</section>
+
+<!-- earlier -->
+<section class="sec" id="earlier" aria-labelledby="earlier-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-no">04 / Ранний опыт</span>
+      <h2 id="earlier-title">Опыт работы</h2>
+    </div>
+    <div class="story">
+      <article class="quote reveal" aria-labelledby="notai-title"><p class="lab">Хронология</p><h3 id="notai-title" class="big">ООО "Арго Медиа" и проектная работа</h3><ol class="steps"><li><b>Начало</b><span>Полгода работал на фрилансе. Выполнил заказ для ООО &quot;Арго Медиа&quot; и получил предложение перейти в штат.</span></li><li><b>Компания</b><span>ООО "Арго Медиа", PHP-разработчик (Laravel), июль 2024 - октябрь 2026. Вёл значительную часть разработки <a href="#magistral">"Магистрали"</a> для внутреннего использования в компании. Автоматизировал первичный разбор заявок: ИИ извлекал данные из текста и заполнял черновик, сотрудник проверял поля перед сохранением. В работе использовали отдельные наработки из <a href="#estimate">"Сметы"</a>.</span></li><li><b>Дальше</b><span>После работы в компании занимался отдельными заказами.</span></li></ol></article>
+      <div class="small-cards">
+        <article class="mini reveal" aria-labelledby="freelance-title">
+          <h3 id="freelance-title">Фриланс и ИИ-автоматизация</h3>
+          <p class="meta">Январь 2024 - июль 2024 · 6 месяцев</p>
+          <p>Проектировал сценарии автоматизации от разбора процесса до проверки в приложении. После выполнения заказа для "Арго Медиа" получил предложение перейти в штат.</p>
+          <p><b>Поздний фриланс-заказ · октябрь 2026.</b> Разработал <a href="#kontur">"Контур"</a>, калькулятор остекления с тарифами, версиями коммерческих предложений и клиентской ссылкой.</p>
+          <p><b>Примеры из портфолио.</b> В <a href="#site">B2B CRM</a> Ollama извлекает 3 поля из текста заявки, а вебхук создаёт заявки из внешней формы без дублей. В <a href="#estimate-mini">Telegram Mini App</a> заявки и сообщения поступают в кабинет подрядчика. В <a href="#estimate">"Смете"</a> из сделки CRM создаётся черновик, а принятая версия доступна ERP через API.</p>
+        </article>
+        <article class="mini reveal" aria-labelledby="sun-title"><h3 id="sun-title">Скриншоты "Магистрали"</h3><p class="meta">Опубликованы с разрешения ООО "Арго Медиа"</p><p>Данные компании скрыты. Репозиторий на GitHub закрыт. Система предназначена для внутреннего использования.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- open source -->
+<section class="sec tight" id="oss" aria-labelledby="oss-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-no">05 / Открытый код</span>
+      <h2 id="oss-title">Код и примеры на GitHub</h2><p>Профиль разработчика и примеры кода.</p></div>
+    <div class="repos"><article class="repo flagship reveal" aria-labelledby="r1"><div class="flag-body"><div><div class="top"><h3 id="r1">GitHub</h3><span class="badge">Профиль</span></div><p>Профиль разработчика и репозитории.</p><a class="go" href="https://github.com/asterr-developer">Посмотреть на GitHub</a></div><div class="shots three" data-gallery><figure class="shot"><a class="frame" href="images/current-logistics-dispatch.png"><img src="images/current-logistics-dispatch.png" width="1440" height="960" alt="Диспетчерская: заявки и состояния рейсов" loading="lazy"></a><figcaption>Диспетчерская: заявки и состояния рейсов</figcaption></figure><figure class="shot"><a class="frame" href="images/current-estimate-editor.png"><img src="images/current-estimate-editor.png" width="1440" height="960" alt="Редактор предложения и предпросмотр расчёта" loading="lazy"></a><figcaption>Редактор предложения и предпросмотр расчёта</figcaption></figure><figure class="shot"><a class="frame" href="images/current-crm-deals.png"><img src="images/current-crm-deals.png" width="1440" height="960" alt="Воронка корпоративных продаж" loading="lazy"></a><figcaption>Воронка корпоративных продаж</figcaption></figure></div></div></article><article class="repo reveal" aria-labelledby="r2"><div class="top"><h3 id="r2">Магистраль</h3></div><p>Учёт рейсов, резервов и складских движений.</p><ul class="spec"><li>PHP</li><li>Laravel</li><li>Vue 3</li><li>MySQL</li></ul><a class="go" href="#magistral">Смотреть проект</a></article><article class="repo reveal" aria-labelledby="r3"><div class="top"><h3 id="r3">Смета</h3></div><p>Подготовка смет и коммерческих предложений.</p><ul class="spec"><li>Laravel</li><li>Vue 3</li><li>PDF / Excel</li></ul><a class="go" href="#estimate">Смотреть проект</a></article><article class="repo reveal" aria-labelledby="r4"><div class="top"><h3 id="r4">B2B CRM</h3></div><p>Корпоративные продажи, согласование предложений и бронирование номеров.</p><ul class="spec"><li>Laravel</li><li>Vue 3</li><li>PostgreSQL</li></ul><a class="go" href="#site">Смотреть проект</a></article></div>
+  </div>
+</section>
+
+<section class="sec" id="skills" aria-labelledby="skills-title">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="skills-title">Технический стек</h2></div>
+    <dl class="skills-list">
+<div><dt>Бэкенд</dt><dd><b>PHP 8, Laravel 10–13</b>, Eloquent, очереди (Bus::chain, Bus::batch), Sanctum, Filament, Saloon</dd></div>
+<div><dt>Интерфейс</dt><dd><b>Vue 3 (Composition API), TypeScript</b>, Inertia.js, Tailwind CSS, Vite</dd></div>
+<div><dt>Данные</dt><dd><b>MySQL, PostgreSQL, Redis</b> (кэш, блокировки, очереди), оптимизация запросов</dd></div>
+<div><dt>Интеграции</dt><dd><b>REST, SOAP</b>, вебхуки, шифрование данных AES/RSA, КЭП, проектирование REST API</dd></div>
+<div><dt>Архитектура</dt><dd>Идемпотентность, распределённые и пессимистические блокировки, машины состояний, мультитенантность, RBAC</dd></div>
+<div><dt>DevOps и тесты</dt><dd><b>Docker, Git, CI/CD (GitHub Actions)</b>, Linux, Nginx, AWS S3, <b>PHPUnit</b>, Postman</dd></div>
+<div><dt>Дополнительно</dt><dd><b>Python</b> (скрипты, автоматизация, API-интеграции, unittest), Odoo ERP</dd></div>
+<div><dt>Пет-проекты</dt><dd>RabbitMQ, React, Next.js, Vitest</dd></div>
+<div><dt>ИИ</dt><dd>Codex для планирования, тестирования и ревью. Claude Code для точечных правок.</dd></div>
+</dl>
+  </div>
+</section>
+
+<!-- contact -->
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap">
+    <h2 id="contact-title">Ищете PHP-разработчика на Laravel?</h2>
+    <p>Связаться со мной можно в Telegram, по почте или телефону.</p>
+    <ul class="ctas">
+      <li><a class="btn primary" href="mailto:asterr.developer@gmail.com">asterr.developer@gmail.com</a></li>
+      <li><a class="btn" href="ASTERR_PORTFOLIO.pdf" download>Скачать резюме <span class="k">PDF</span></a></li>
+      <li><a class="btn" href="https://github.com/asterr-developer">GitHub</a></li>
+      <li><a class="btn" href="tel:+79818550719">Позвонить</a></li>
+      <li><a class="btn" href="https://t.me/asterrasterr">Telegram</a></li>
+    </ul>
+    <p class="fine"><a href="tel:+79818550719">+7 981 855-07-19</a> · <a href="ASTERR_PORTFOLIO.pdf" download>Резюме</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Портфолио PHP-разработчика · Laravel, Vue 3, MySQL, прикладные системы</p>
+    <p>Богдан Викторович Максимов · <a href="mailto:asterr.developer@gmail.com">asterr.developer@gmail.com</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  // Before/after compare
+  document.querySelectorAll('[data-ba]').forEach(function (ba) {
+    var frame = ba.querySelector('.ba-frame');
+    var top = ba.querySelector('.ba-top');
+    var handle = ba.querySelector('.ba-handle');
+    var range = ba.querySelector('input[type=range]');
+
+    function set(pct) {
+      pct = Math.max(0, Math.min(100, pct));
+      top.style.clipPath = 'inset(0 ' + (100 - pct) + '% 0 0)';
+      handle.style.left = pct + '%';
+      var v = Math.round(pct);
+      if (+range.value !== v) range.value = v;
+      range.setAttribute('aria-valuetext', 'Светлая: ' + v + '%, тёмная: ' + (100 - v) + '%');
+    }
+    function fromEvent(e) {
+      var r = frame.getBoundingClientRect();
+      set((e.clientX - r.left) / r.width * 100);
+    }
+
+    range.addEventListener('input', function () { set(+range.value); });
+    frame.addEventListener('pointerdown', function (e) {
+      frame.setPointerCapture(e.pointerId);
+      fromEvent(e);
+    });
+    frame.addEventListener('pointermove', function (e) {
+      if (frame.hasPointerCapture(e.pointerId)) fromEvent(e);
+    });
+    set(+range.value);
+  });
+
+  // Lightbox: one dialog, galleries grouped by [data-gallery]
+  var SEL = 'a.frame, a.lb-link';
+  var links = document.querySelectorAll('[data-gallery] a.frame, [data-gallery] a.lb-link');
+  if (links.length && typeof HTMLDialogElement === 'function') {
+    var icon = function (d) {
+      return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' + d + '"/></svg>';
+    };
+    var dlg = document.createElement('dialog');
+    dlg.className = 'lb';
+    dlg.setAttribute('aria-label', 'Просмотр снимков');
+    dlg.innerHTML =
+      '<div class="lb-stage"><figure class="lb-fig"><img class="lb-img" alt="">' +
+      '<figcaption class="lb-cap"><span class="lb-text"></span><span class="lb-count"></span></figcaption></figure></div>' +
+      '<button type="button" class="lb-btn lb-prev" aria-label="Предыдущий снимок">' + icon('M15 5l-7 7 7 7') + '</button>' +
+      '<button type="button" class="lb-btn lb-next" aria-label="Следующий снимок">' + icon('M9 5l7 7-7 7') + '</button>' +
+      '<button type="button" class="lb-btn lb-close" aria-label="Закрыть просмотр">' + icon('M6 6l12 12M18 6L6 18') + '</button>';
+    document.body.appendChild(dlg);
+
+    var stage = dlg.querySelector('.lb-stage');
+    var fig = dlg.querySelector('.lb-fig');
+    var img = dlg.querySelector('.lb-img');
+    var text = dlg.querySelector('.lb-text');
+    var count = dlg.querySelector('.lb-count');
+    var prev = dlg.querySelector('.lb-prev');
+    var next = dlg.querySelector('.lb-next');
+    var closeBtn = dlg.querySelector('.lb-close');
+    var group = [], idx = 0, opener = null, closing = false, startX = 0, startY = 0;
+
+    var show = function (i) {
+      idx = (i + group.length) % group.length;
+      var a = group[idx];
+      var thumb = a.querySelector('img');
+      var cap = a.getAttribute('data-caption') || (a.parentNode.querySelector('figcaption') || {}).textContent || '';
+      img.src = a.getAttribute('href');
+      img.alt = thumb ? thumb.alt : cap;
+      text.textContent = cap.trim();
+      count.textContent = group.length > 1 ? (idx + 1) + ' / ' + group.length : '';
+      if (group.length > 1) new Image().src = group[(idx + 1) % group.length].getAttribute('href');
+    };
+    var lock = function () {
+      var gap = window.innerWidth - root.clientWidth;
+      if (gap > 0) document.body.style.paddingRight = gap + 'px';
+      root.classList.add('lb-lock');
+    };
+    var unlock = function () {
+      root.classList.remove('lb-lock');
+      document.body.style.paddingRight = '';
+    };
+    var open = function (a) {
+      opener = a;
+      group = Array.prototype.slice.call(a.closest('[data-gallery]').querySelectorAll(SEL));
+      prev.hidden = next.hidden = group.length < 2;
+      show(group.indexOf(a));
+      lock();
+      dlg.showModal();
+      closeBtn.focus();
+      requestAnimationFrame(function () { requestAnimationFrame(function () { dlg.classList.add('is-open'); }); });
+    };
+    var close = function () {
+      if (!dlg.open || closing) return;
+      closing = true;
+      dlg.classList.remove('is-open');
+      var done = function () {
+        closing = false;
+        dlg.close();
+        unlock();
+        img.removeAttribute('src');
+        if (opener) opener.focus();
+      };
+      if (reduceMotion.matches) done(); else setTimeout(done, 200);
+    };
+
+    Array.prototype.forEach.call(links, function (a) {
+      a.addEventListener('click', function (e) {
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        open(a);
+      });
+    });
+    prev.addEventListener('click', function () { show(idx - 1); });
+    next.addEventListener('click', function () { show(idx + 1); });
+    closeBtn.addEventListener('click', close);
+    dlg.addEventListener('cancel', function (e) { e.preventDefault(); close(); });
+    dlg.addEventListener('click', function (e) {
+      if (e.target === dlg || e.target === stage || e.target === fig) close();
+    });
+    dlg.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight' && group.length > 1) { e.preventDefault(); show(idx + 1); }
+      else if (e.key === 'ArrowLeft' && group.length > 1) { e.preventDefault(); show(idx - 1); }
+      else if (e.key === 'Tab') {
+        var f = [prev, next, closeBtn].filter(function (b) { return !b.hidden; });
+        var at = f.indexOf(document.activeElement);
+        e.preventDefault();
+        f[(at + (e.shiftKey ? -1 : 1) + f.length) % f.length].focus();
+      }
+    });
+    stage.addEventListener('touchstart', function (e) {
+      startX = e.changedTouches[0].clientX;
+      startY = e.changedTouches[0].clientY;
+    }, { passive: true });
+    stage.addEventListener('touchend', function (e) {
+      var dx = e.changedTouches[0].clientX - startX;
+      var dy = e.changedTouches[0].clientY - startY;
+      if (group.length > 1 && Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) show(idx + (dx < 0 ? 1 : -1));
+    });
+  }
+
+  // Reveal on scroll. Elements already on screen are marked first, so nothing above the fold blinks.
+  var items = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !reduceMotion.matches) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('on'); io.unobserve(en.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    Array.prototype.forEach.call(items, function (el) {
+      if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('on');
+      else io.observe(el);
+    });
+    root.classList.add('io');
+  }
+
+  // Print the engineering detail too.
+  window.addEventListener('beforeprint', function () {
+    document.querySelectorAll('details').forEach(function (d) { d.open = true; });
+  });
+})();
+</script>
+</body>
+</html>
